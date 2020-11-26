@@ -1,0 +1,142 @@
+/*
+type selectors
+*/
+
+@font-face {
+	font-family: BerlinSans;
+	src: local("C:\Users\DELL\source\repos\BRLNSDB.ttf");
+}
+
+/* body
+{
+	background-color:white;
+} */
+
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0,0,0,.1);
+}
+
+h1{
+	color:black;
+	text-align:center;
+	font-size: 2.5rem;
+	margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+	/* font-family:'Berlin Sans FB'; */
+	/* border-top:solid;
+	border-top-color: darkgrey;
+	border-bottom: solid;
+	border-bottom-color: darkgrey;
+	margin-top: 30px; */
+	
+}
+
+h2{
+	color:black;
+	margin:15px 2px 2px 15px;
+	font-size:18px;
+	font-family: 'Berlin Sans FB';
+}
+
+h3{
+	color:black;
+	margin-left:100px;
+	font-size:14px;
+	font-family: 'Berlin Sans FB';
+}
+
+.new {
+	font-family: Comfortaa;
+	background: inherit;
+}
+
+.row { 
+	display: table;
+}
+
+.parameter, .dots, .value {
+	display: table-cell;
+	font-family: Comfortaa;
+}
+
+.parameter, .value {
+	white-space: nowrap;
+}
+
+
+.dots {
+	border-bottom: 1px dotted gray;
+	width: 100%;
+}
+
+.wrapper{
+	display:grid;
+	grid-template-columns: 1fr 1fr;
+	background-color: white;
+}
+
+
+.wrapper>div{
+	background:white;
+	padding:1em;
+}
+
+.agrupado {
+	/*background-color:#C4C4C4;*/
+	background-color: white;
+}
+
+.row {
+	/*background-color: #C4C4C4;*/
+	background-color: white;
+}
+
+
+div.row {
+	/*background: #C4C4C4;*/
+	background-color: white;
+	margin: 5px 15px 5px 15px;
+	padding: 6px 6px 6px 6px;
+	font-size: 16px;
+}
+
+#testDiv{
+	background-color:white;
+	margin:0px 0px 0px 0px;
+	padding:0px 0px 0px 0px;
+}
+
+@media (max-width: 1024px) {
+	
+
+	.wrapper {
+		display: grid;
+		grid-template-columns: 1fr;
+		background-color: white;
+	}
+}
+
+#container-testinfo {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.column {
+	width: 30%;
+	text-align: center;
+}
+
+@media screen and (max-width: 480px) {
+	.column {
+		width: 100%;
+	}
+}
+
+button {	
+	margin-left: 2%;
+}
